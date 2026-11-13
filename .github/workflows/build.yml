@@ -13,6 +13,11 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
+      - name: Configure Android SDK
+        run: |
+          echo "ANDROID_HOME=/usr/local/lib/android/sdk" >> ""
+          echo "/usr/local/lib/android/sdk/cmdline-tools/16.0/bin" >> ""
+          echo "/usr/local/lib/android/sdk/platform-tools" >> ""
       - name: Install Android SDK packages
         run: |
           yes | sdkmanager --licenses >/dev/null || true
