@@ -51,6 +51,22 @@ adb -s "$TV" shell am start -n com.techgenius.tvosmovix/.MainActivity
 
 Keep the stock launcher enabled until the new Home activity is installed, focused, and confirmed after a reboot. Disable packages only with a tested device list and keep the restore record. Never uninstall the stock launcher as part of this workflow.
 
+## Screenshots
+
+### Home and player
+
+![Movix TV home screen](screenshots_movix/home.png)
+
+![Live player](screenshots_movix/player-live.png)
+
+![Player controls](screenshots_movix/player-controls.png)
+
+### Resume choice
+
+The resume dialog pauses playback until the viewer chooses an action.
+
+![Resume choice dialog](screenshots_movix/resume-choice.png)
+
 ## Documentation
 
 - [Dom.ru / Movix installation and recovery](docs/movix-domru.md)
