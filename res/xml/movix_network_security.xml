@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Operator HLS redirects to dynamic CDN IP addresses over HTTP. API calls use HTTPS. -->
+    <base-config cleartextTrafficPermitted="true" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">ertelecom.ru</domain>
+    </domain-config>
+</network-security-config>

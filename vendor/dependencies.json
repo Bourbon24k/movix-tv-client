@@ -1,0 +1,292 @@
+[
+  {
+    "g": "androidx.media3",
+    "a": "media3-exoplayer-hls",
+    "v": "1.4.1",
+    "jars": [
+      "work/tvos-source/vendor/androidx.media3.media3-exoplayer-hls-1.4.1/aar/classes.jar"
+    ],
+    "package": "androidx.media3.exoplayer.hls",
+    "res": null
+  },
+  {
+    "g": "androidx.annotation",
+    "a": "annotation",
+    "v": "1.3.0",
+    "jars": [
+      "work/tvos-source/vendor/androidx.annotation.annotation-1.3.0/artifact.jar"
+    ],
+    "package": "",
+    "res": null
+  },
+  {
+    "g": "androidx.media3",
+    "a": "media3-exoplayer",
+    "v": "1.4.1",
+    "jars": [
+      "work/tvos-source/vendor/androidx.media3.media3-exoplayer-1.4.1/aar/classes.jar"
+    ],
+    "package": "androidx.media3.exoplayer",
+    "res": "work/tvos-source/vendor/androidx.media3.media3-exoplayer-1.4.1/aar/res"
+  },
+  {
+    "g": "androidx.media3",
+    "a": "media3-common",
+    "v": "1.4.1",
+    "jars": [
+      "work/tvos-source/vendor/androidx.media3.media3-common-1.4.1/aar/classes.jar"
+    ],
+    "package": "androidx.media3.common",
+    "res": null
+  },
+  {
+    "g": "com.google.guava",
+    "a": "guava",
+    "v": "33.0.0-android",
+    "jars": [
+      "work/tvos-source/vendor/com.google.guava.guava-33.0.0-android/artifact.jar"
+    ],
+    "package": "",
+    "res": null
+  },
+  {
+    "g": "com.google.guava",
+    "a": "failureaccess",
+    "v": "1.0.2",
+    "jars": [
+      "work/tvos-source/vendor/com.google.guava.failureaccess-1.0.2/artifact.jar"
+    ],
+    "package": "",
+    "res": null
+  },
+  {
+    "g": "com.google.guava",
+    "a": "listenablefuture",
+    "v": "9999.0-empty-to-avoid-conflict-with-guava",
+    "jars": [
+      "work/tvos-source/vendor/com.google.guava.listenablefuture-9999.0-empty-to-avoid-conflict-with-guava/artifact.jar"
+    ],
+    "package": "",
+    "res": null
+  },
+  {
+    "g": "com.google.code.findbugs",
+    "a": "jsr305",
+    "v": "3.0.2",
+    "jars": [
+      "work/tvos-source/vendor/com.google.code.findbugs.jsr305-3.0.2/artifact.jar"
+    ],
+    "package": "",
+    "res": null
+  },
+  {
+    "g": "org.checkerframework",
+    "a": "checker-qual",
+    "v": "3.41.0",
+    "jars": [
+      "work/tvos-source/vendor/org.checkerframework.checker-qual-3.41.0/artifact.jar"
+    ],
+    "package": "",
+    "res": null
+  },
+  {
+    "g": "com.google.errorprone",
+    "a": "error_prone_annotations",
+    "v": "2.23.0",
+    "jars": [
+      "work/tvos-source/vendor/com.google.errorprone.error_prone_annotations-2.23.0/artifact.jar"
+    ],
+    "package": "",
+    "res": null
+  },
+  {
+    "g": "com.google.j2objc",
+    "a": "j2objc-annotations",
+    "v": "2.8",
+    "jars": [
+      "work/tvos-source/vendor/com.google.j2objc.j2objc-annotations-2.8/artifact.jar"
+    ],
+    "package": "",
+    "res": null
+  },
+  {
+    "g": "androidx.annotation",
+    "a": "annotation-experimental",
+    "v": "1.3.1",
+    "jars": [
+      "work/tvos-source/vendor/androidx.annotation.annotation-experimental-1.3.1/aar/classes.jar"
+    ],
+    "package": "androidx.annotation.experimental",
+    "res": "work/tvos-source/vendor/androidx.annotation.annotation-experimental-1.3.1/aar/res"
+  },
+  {
+    "g": "org.jetbrains.kotlin",
+    "a": "kotlin-stdlib",
+    "v": "1.7.10",
+    "jars": [
+      "work/tvos-source/vendor/org.jetbrains.kotlin.kotlin-stdlib-1.7.10/artifact.jar"
+    ],
+    "package": "",
+    "res": null
+  },
+  {
+    "g": "org.jetbrains.kotlin",
+    "a": "kotlin-stdlib-common",
+    "v": "1.7.10",
+    "jars": [
+      "work/tvos-source/vendor/org.jetbrains.kotlin.kotlin-stdlib-common-1.7.10/artifact.jar"
+    ],
+    "package": "",
+    "res": null
+  },
+  {
+    "g": "org.jetbrains",
+    "a": "annotations",
+    "v": "13.0",
+    "jars": [
+      "work/tvos-source/vendor/org.jetbrains.annotations-13.0/artifact.jar"
+    ],
+    "package": "",
+    "res": null
+  },
+  {
+    "g": "androidx.media3",
+    "a": "media3-container",
+    "v": "1.4.1",
+    "jars": [
+      "work/tvos-source/vendor/androidx.media3.media3-container-1.4.1/aar/classes.jar"
+    ],
+    "package": "androidx.media3.container",
+    "res": null
+  },
+  {
+    "g": "androidx.media3",
+    "a": "media3-datasource",
+    "v": "1.4.1",
+    "jars": [
+      "work/tvos-source/vendor/androidx.media3.media3-datasource-1.4.1/aar/classes.jar"
+    ],
+    "package": "androidx.media3.datasource",
+    "res": null
+  },
+  {
+    "g": "androidx.media3",
+    "a": "media3-database",
+    "v": "1.4.1",
+    "jars": [
+      "work/tvos-source/vendor/androidx.media3.media3-database-1.4.1/aar/classes.jar"
+    ],
+    "package": "androidx.media3.database",
+    "res": null
+  },
+  {
+    "g": "androidx.exifinterface",
+    "a": "exifinterface",
+    "v": "1.3.6",
+    "jars": [
+      "work/tvos-source/vendor/androidx.exifinterface.exifinterface-1.3.6/aar/classes.jar"
+    ],
+    "package": "androidx.exifinterface",
+    "res": null
+  },
+  {
+    "g": "androidx.media3",
+    "a": "media3-decoder",
+    "v": "1.4.1",
+    "jars": [
+      "work/tvos-source/vendor/androidx.media3.media3-decoder-1.4.1/aar/classes.jar"
+    ],
+    "package": "androidx.media3.decoder",
+    "res": null
+  },
+  {
+    "g": "androidx.media3",
+    "a": "media3-extractor",
+    "v": "1.4.1",
+    "jars": [
+      "work/tvos-source/vendor/androidx.media3.media3-extractor-1.4.1/aar/classes.jar"
+    ],
+    "package": "androidx.media3.extractor",
+    "res": null
+  },
+  {
+    "g": "androidx.collection",
+    "a": "collection",
+    "v": "1.2.0",
+    "jars": [
+      "work/tvos-source/vendor/androidx.collection.collection-1.2.0/artifact.jar"
+    ],
+    "package": "",
+    "res": null
+  },
+  {
+    "g": "androidx.core",
+    "a": "core",
+    "v": "1.8.0",
+    "jars": [
+      "work/tvos-source/vendor/androidx.core.core-1.8.0/aar/classes.jar"
+    ],
+    "package": "androidx.core",
+    "res": "work/tvos-source/vendor/androidx.core.core-1.8.0/aar/res"
+  },
+  {
+    "g": "androidx.concurrent",
+    "a": "concurrent-futures",
+    "v": "1.0.0",
+    "jars": [
+      "work/tvos-source/vendor/androidx.concurrent.concurrent-futures-1.0.0/artifact.jar"
+    ],
+    "package": "",
+    "res": null
+  },
+  {
+    "g": "androidx.lifecycle",
+    "a": "lifecycle-runtime",
+    "v": "2.3.1",
+    "jars": [
+      "work/tvos-source/vendor/androidx.lifecycle.lifecycle-runtime-2.3.1/aar/classes.jar"
+    ],
+    "package": "androidx.lifecycle.runtime",
+    "res": "work/tvos-source/vendor/androidx.lifecycle.lifecycle-runtime-2.3.1/aar/res"
+  },
+  {
+    "g": "androidx.lifecycle",
+    "a": "lifecycle-common",
+    "v": "2.3.1",
+    "jars": [
+      "work/tvos-source/vendor/androidx.lifecycle.lifecycle-common-2.3.1/artifact.jar"
+    ],
+    "package": "",
+    "res": null
+  },
+  {
+    "g": "androidx.arch.core",
+    "a": "core-common",
+    "v": "2.1.0",
+    "jars": [
+      "work/tvos-source/vendor/androidx.arch.core.core-common-2.1.0/artifact.jar"
+    ],
+    "package": "",
+    "res": null
+  },
+  {
+    "g": "androidx.arch.core",
+    "a": "core-runtime",
+    "v": "2.1.0",
+    "jars": [
+      "work/tvos-source/vendor/androidx.arch.core.core-runtime-2.1.0/aar/classes.jar"
+    ],
+    "package": "androidx.arch.core",
+    "res": null
+  },
+  {
+    "g": "androidx.versionedparcelable",
+    "a": "versionedparcelable",
+    "v": "1.1.1",
+    "jars": [
+      "work/tvos-source/vendor/androidx.versionedparcelable.versionedparcelable-1.1.1/aar/classes.jar"
+    ],
+    "package": "androidx.versionedparcelable",
+    "res": null
+  }
+]
