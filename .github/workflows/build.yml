@@ -1,20 +1,28 @@
-name: build
+name: checks
 
 on:
   push:
   pull_request:
 
 jobs:
-  apk:
+  source-checks:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: '17'
-      - uses: android-actions/setup-android@v2
-        with:
-          packages: 'platform-tools platforms;android-34 build-tools;34.0.0'
-      - name: Build APK
-        run: ./build.sh
+      - name: Check repository shape
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f AndroidManifest.xml
+          test -f build.sh
+          test -f vendor/dependencies.json
+          test -f assets/movix_channels.json
+          test -f ATTRIBUTIONS.md
+          test -f docs/movix-domru.md
+          ! find . -path './.git' -prune -o -type f \( -name '*.apk' -o -name '*.keystore' -o -name '*.jks' \) -print | grep -q .
+          ! rg -n --hidden -g '!./.git/**' -g '!vendor/**' 'BEGIN (RSA|OPENSSH|PRIVATE)|ghp_[A-Za-z0-9]+' .
+          git diff --check
+      - name: Report build requirements
+        run: |
+          echo 'Build requires JDK 17, Android platform 34 and build-tools 34.0.0.'
+          echo 'The full APK build is documented in README.md and docs/install.md.'
