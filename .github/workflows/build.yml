@@ -20,6 +20,7 @@ jobs:
           echo "/usr/local/lib/android/sdk/platform-tools" >> "$GITHUB_PATH"
       - name: Install Android SDK packages
         run: |
+          export PATH="/usr/local/lib/android/sdk/cmdline-tools/16.0/bin:/usr/local/lib/android/sdk/platform-tools:/Applications/ChatGPT.app/Contents/Resources/codex-cli/codex-path:/Users/bourbon/yandex-cloud/bin:/Users/bourbon/.local/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/Users/bourbon/.codex/tmp/arg0-macos/codex-arg0i7BEbv:/Applications/ChatGPT.app/Contents/Resources/codex-cli/codex-path:/Users/bourbon/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/Users/bourbon/yandex-cloud/bin:/Users/bourbon/.local/bin:/Users/bourbon/.lmstudio/bin:/Users/bourbon/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/Applications/ChatGPT.app/Contents/Resources:/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS:/Users/bourbon/.lmstudio/bin"
           yes | sdkmanager --licenses >/dev/null || true
           sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
       - name: Build APK
